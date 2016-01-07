@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04339D311BABB38E000AC64B /* JKPointButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04339D301BABB38E000AC64B /* JKPointButton.m */; };
-		04339D371BABBD0D000AC64B /* JKPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04339D361BABBD0D000AC64B /* JKPointModel.m */; };
+		043A10691C3E5FE300646E8F /* JKChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A105C1C3E5FE300646E8F /* JKChartView.m */; };
+		043A106A1C3E5FE300646E8F /* JKChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A105C1C3E5FE300646E8F /* JKChartView.m */; };
+		043A106B1C3E5FE300646E8F /* JKGraphAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A105E1C3E5FE300646E8F /* JKGraphAttribute.m */; };
+		043A106C1C3E5FE300646E8F /* JKGraphAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A105E1C3E5FE300646E8F /* JKGraphAttribute.m */; };
+		043A106D1C3E5FE300646E8F /* JKPointButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10601C3E5FE300646E8F /* JKPointButton.m */; };
+		043A106E1C3E5FE300646E8F /* JKPointButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10601C3E5FE300646E8F /* JKPointButton.m */; };
+		043A106F1C3E5FE300646E8F /* JKPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10621C3E5FE300646E8F /* JKPointModel.m */; };
+		043A10701C3E5FE300646E8F /* JKPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10621C3E5FE300646E8F /* JKPointModel.m */; };
+		043A10711C3E5FE300646E8F /* NSDate+TuanHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10641C3E5FE300646E8F /* NSDate+TuanHelper.m */; };
+		043A10721C3E5FE300646E8F /* NSDate+TuanHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10641C3E5FE300646E8F /* NSDate+TuanHelper.m */; };
+		043A10731C3E5FE300646E8F /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10661C3E5FE300646E8F /* UIButton+Extensions.m */; };
+		043A10741C3E5FE300646E8F /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10661C3E5FE300646E8F /* UIButton+Extensions.m */; };
+		043A10751C3E5FE300646E8F /* UIButton+TuanExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10681C3E5FE300646E8F /* UIButton+TuanExtensions.m */; };
+		043A10761C3E5FE300646E8F /* UIButton+TuanExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A10681C3E5FE300646E8F /* UIButton+TuanExtensions.m */; };
 		045E55B51BA81B580026F03C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E55B41BA81B580026F03C /* main.m */; };
 		045E55B81BA81B580026F03C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E55B71BA81B580026F03C /* AppDelegate.m */; };
 		045E55BB1BA81B580026F03C /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E55BA1BA81B580026F03C /* JKViewController.m */; };
@@ -16,11 +28,6 @@
 		045E55C01BA81B580026F03C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045E55BF1BA81B580026F03C /* Images.xcassets */; };
 		045E55C31BA81B580026F03C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045E55C11BA81B580026F03C /* LaunchScreen.xib */; };
 		045E55CF1BA81B580026F03C /* JKChartViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E55CE1BA81B580026F03C /* JKChartViewDemoTests.m */; };
-		045E55DB1BA81B9D0026F03C /* JKChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E55DA1BA81B9D0026F03C /* JKChartView.m */; };
-		045E55DC1BA81B9D0026F03C /* JKChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E55DA1BA81B9D0026F03C /* JKChartView.m */; };
-		04834C9E1BAAD98C008BE50E /* JKGraphAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04834C9D1BAAD98C008BE50E /* JKGraphAttribute.m */; };
-		04DA7DFD1BAEECC700118E62 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA7DFC1BAEECC700118E62 /* UIButton+Extensions.m */; settings = {ASSET_TAGS = (); }; };
-		04DA7DFE1BAEECC700118E62 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA7DFC1BAEECC700118E62 /* UIButton+Extensions.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04339D2F1BABB38E000AC64B /* JKPointButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPointButton.h; sourceTree = "<group>"; };
-		04339D301BABB38E000AC64B /* JKPointButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPointButton.m; sourceTree = "<group>"; };
-		04339D351BABBD0D000AC64B /* JKPointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPointModel.h; sourceTree = "<group>"; };
-		04339D361BABBD0D000AC64B /* JKPointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPointModel.m; sourceTree = "<group>"; };
+		043A105B1C3E5FE300646E8F /* JKChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKChartView.h; sourceTree = "<group>"; };
+		043A105C1C3E5FE300646E8F /* JKChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKChartView.m; sourceTree = "<group>"; };
+		043A105D1C3E5FE300646E8F /* JKGraphAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKGraphAttribute.h; sourceTree = "<group>"; };
+		043A105E1C3E5FE300646E8F /* JKGraphAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKGraphAttribute.m; sourceTree = "<group>"; };
+		043A105F1C3E5FE300646E8F /* JKPointButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPointButton.h; sourceTree = "<group>"; };
+		043A10601C3E5FE300646E8F /* JKPointButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPointButton.m; sourceTree = "<group>"; };
+		043A10611C3E5FE300646E8F /* JKPointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPointModel.h; sourceTree = "<group>"; };
+		043A10621C3E5FE300646E8F /* JKPointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPointModel.m; sourceTree = "<group>"; };
+		043A10631C3E5FE300646E8F /* NSDate+TuanHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TuanHelper.h"; sourceTree = "<group>"; };
+		043A10641C3E5FE300646E8F /* NSDate+TuanHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TuanHelper.m"; sourceTree = "<group>"; };
+		043A10651C3E5FE300646E8F /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		043A10661C3E5FE300646E8F /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
+		043A10671C3E5FE300646E8F /* UIButton+TuanExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TuanExtensions.h"; sourceTree = "<group>"; };
+		043A10681C3E5FE300646E8F /* UIButton+TuanExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TuanExtensions.m"; sourceTree = "<group>"; };
 		045E55AF1BA81B580026F03C /* JKChartViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKChartViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045E55B31BA81B580026F03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045E55B41BA81B580026F03C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,12 +68,6 @@
 		045E55C81BA81B580026F03C /* JKChartViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKChartViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045E55CD1BA81B580026F03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045E55CE1BA81B580026F03C /* JKChartViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKChartViewDemoTests.m; sourceTree = "<group>"; };
-		045E55D91BA81B9D0026F03C /* JKChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKChartView.h; sourceTree = "<group>"; };
-		045E55DA1BA81B9D0026F03C /* JKChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKChartView.m; sourceTree = "<group>"; };
-		04834C9C1BAAD98C008BE50E /* JKGraphAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKGraphAttribute.h; sourceTree = "<group>"; };
-		04834C9D1BAAD98C008BE50E /* JKGraphAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKGraphAttribute.m; sourceTree = "<group>"; };
-		04DA7DFB1BAEECC700118E62 /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
-		04DA7DFC1BAEECC700118E62 /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043A105A1C3E5FE300646E8F /* JKChartView */ = {
+			isa = PBXGroup;
+			children = (
+				043A105B1C3E5FE300646E8F /* JKChartView.h */,
+				043A105C1C3E5FE300646E8F /* JKChartView.m */,
+				043A105D1C3E5FE300646E8F /* JKGraphAttribute.h */,
+				043A105E1C3E5FE300646E8F /* JKGraphAttribute.m */,
+				043A105F1C3E5FE300646E8F /* JKPointButton.h */,
+				043A10601C3E5FE300646E8F /* JKPointButton.m */,
+				043A10611C3E5FE300646E8F /* JKPointModel.h */,
+				043A10621C3E5FE300646E8F /* JKPointModel.m */,
+				043A10631C3E5FE300646E8F /* NSDate+TuanHelper.h */,
+				043A10641C3E5FE300646E8F /* NSDate+TuanHelper.m */,
+				043A10651C3E5FE300646E8F /* UIButton+Extensions.h */,
+				043A10661C3E5FE300646E8F /* UIButton+Extensions.m */,
+				043A10671C3E5FE300646E8F /* UIButton+TuanExtensions.h */,
+				043A10681C3E5FE300646E8F /* UIButton+TuanExtensions.m */,
+			);
+			path = JKChartView;
+			sourceTree = "<group>";
+		};
 		045E55A61BA81B580026F03C = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +130,7 @@
 		045E55B11BA81B580026F03C /* JKChartViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				045E55D81BA81B840026F03C /* JKChartView */,
+				043A105A1C3E5FE300646E8F /* JKChartView */,
 				045E55B61BA81B580026F03C /* AppDelegate.h */,
 				045E55B71BA81B580026F03C /* AppDelegate.m */,
 				045E55B91BA81B580026F03C /* JKViewController.h */,
@@ -135,31 +167,6 @@
 				045E55CD1BA81B580026F03C /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		045E55D81BA81B840026F03C /* JKChartView */ = {
-			isa = PBXGroup;
-			children = (
-				04834C981BAAD46D008BE50E /* HelpModel */,
-				045E55D91BA81B9D0026F03C /* JKChartView.h */,
-				045E55DA1BA81B9D0026F03C /* JKChartView.m */,
-				04339D2F1BABB38E000AC64B /* JKPointButton.h */,
-				04339D301BABB38E000AC64B /* JKPointButton.m */,
-				04DA7DFB1BAEECC700118E62 /* UIButton+Extensions.h */,
-				04DA7DFC1BAEECC700118E62 /* UIButton+Extensions.m */,
-			);
-			path = JKChartView;
-			sourceTree = "<group>";
-		};
-		04834C981BAAD46D008BE50E /* HelpModel */ = {
-			isa = PBXGroup;
-			children = (
-				04339D351BABBD0D000AC64B /* JKPointModel.h */,
-				04339D361BABBD0D000AC64B /* JKPointModel.m */,
-				04834C9C1BAAD98C008BE50E /* JKGraphAttribute.h */,
-				04834C9D1BAAD98C008BE50E /* JKGraphAttribute.m */,
-			);
-			path = HelpModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,13 +269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A10711C3E5FE300646E8F /* NSDate+TuanHelper.m in Sources */,
+				043A10731C3E5FE300646E8F /* UIButton+Extensions.m in Sources */,
 				045E55BB1BA81B580026F03C /* JKViewController.m in Sources */,
-				04339D311BABB38E000AC64B /* JKPointButton.m in Sources */,
-				04339D371BABBD0D000AC64B /* JKPointModel.m in Sources */,
+				043A10751C3E5FE300646E8F /* UIButton+TuanExtensions.m in Sources */,
+				043A106D1C3E5FE300646E8F /* JKPointButton.m in Sources */,
 				045E55B81BA81B580026F03C /* AppDelegate.m in Sources */,
-				045E55DB1BA81B9D0026F03C /* JKChartView.m in Sources */,
-				04DA7DFD1BAEECC700118E62 /* UIButton+Extensions.m in Sources */,
-				04834C9E1BAAD98C008BE50E /* JKGraphAttribute.m in Sources */,
+				043A10691C3E5FE300646E8F /* JKChartView.m in Sources */,
+				043A106F1C3E5FE300646E8F /* JKPointModel.m in Sources */,
+				043A106B1C3E5FE300646E8F /* JKGraphAttribute.m in Sources */,
 				045E55B51BA81B580026F03C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045E55DC1BA81B9D0026F03C /* JKChartView.m in Sources */,
-				04DA7DFE1BAEECC700118E62 /* UIButton+Extensions.m in Sources */,
+				043A10701C3E5FE300646E8F /* JKPointModel.m in Sources */,
+				043A10761C3E5FE300646E8F /* UIButton+TuanExtensions.m in Sources */,
+				043A106A1C3E5FE300646E8F /* JKChartView.m in Sources */,
+				043A10721C3E5FE300646E8F /* NSDate+TuanHelper.m in Sources */,
+				043A106E1C3E5FE300646E8F /* JKPointButton.m in Sources */,
+				043A106C1C3E5FE300646E8F /* JKGraphAttribute.m in Sources */,
 				045E55CF1BA81B580026F03C /* JKChartViewDemoTests.m in Sources */,
+				043A10741C3E5FE300646E8F /* UIButton+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
