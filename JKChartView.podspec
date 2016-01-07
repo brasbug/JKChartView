@@ -17,7 +17,7 @@
   s.author             = { "Jack" => "369495368@qq.com" }
   
   s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.0"
 
 
 
