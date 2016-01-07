@@ -11,7 +11,7 @@
 
   s.homepage     = "https://github.com/brasbug/JKChartView"
 
-  s.license      = { :type => "MIT", :file => "LICENSE.md" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   s.author             = { "Jack" => "369495368@qq.com" }
