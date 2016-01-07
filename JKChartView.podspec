@@ -1,4 +1,6 @@
 
+ Pod::Spec.new do |s|
+
   s.name         = "BBStockChartView"
   s.version      = "1.0.0"
   s.summary      = "An iOS chartView"
