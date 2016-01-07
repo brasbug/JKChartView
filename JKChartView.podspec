@@ -1,7 +1,7 @@
 
  Pod::Spec.new do |s|
 
-  s.name         = "BBStockChartView"
+  s.name         = "JKChartView"
   s.version      = "1.0.0"
   s.summary      = "An iOS chartView"
 
@@ -14,7 +14,6 @@
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
 
 
-
   s.author             = { "Jack" => "369495368@qq.com" }
   
   s.platform     = :ios
@@ -22,10 +21,9 @@
 
 
 
-  s.source       = { :git => "https://github.com/brasbug/JKChartView", :tag => "1.0.0" }
+  s.source       = {:git => "https://github.com/brasbug/JKChartView.git", :tag => "1.0.0" }
 
-  s.source_files  = "JKChartView", "JKChartView/*"
-  s.exclude_files = "JKChartViewDemo"
+  s.source_files  = "JKChartView"
   s.requires_arc = true
 
 
