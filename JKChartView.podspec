@@ -12,4 +12,7 @@
   s.source       = {:git => "https://github.com/brasbug/JKChartView.git", :tag => "1.0.0" }
   s.source_files  = "JKChartView"
   s.requires_arc = true
+  
+  s.dependency 'AFNetworking'
+
 end
