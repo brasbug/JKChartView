@@ -13,6 +13,5 @@
   s.source_files  = "JKChartView"
   s.requires_arc = true
 
-  s.dependency 'AFNetworking', '~> 3.0.4'
-
+  s.dependency 'JoviTuan' , :git =>'http://code.dianpingoa.com/erfeng.cheng/JoviBusiness.git'
 end
